@@ -1,0 +1,41 @@
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Dataset (too large for GitHub)
+brain_tumor_dataset/
+uploads/
+*.jpg
+*.png
+*.jpeg
+!training_history.png
+!confusion_matrix.png
+!roc_curves.png
+
+# Model files (optional - can be uploaded to releases)
+# Uncomment if your model is too large (>100MB)
+# *.h5
+# *.hdf5
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
